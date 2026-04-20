@@ -9,9 +9,9 @@ skips all geometry, extracts only metadata. Handles multi-GB files in seconds.
 - GDS version, database units (DBU)
 - Cell hierarchy with per-cell timestamps
 - TEXT labels (PDK version, device parameters, annotations)
-- Element properties (Cadence/OA PCell parameters)
+- Element properties (PCell parameters)
 - Layer list, element counts (boundary, path, sref, aref, text, box)
-- EDA tool inference (KLayout, Cadence, Calibre)
+- EDA tool inference (which layout tool was used)
 
 ## Install
 
