@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+include pyproject.toml
+include setup.py
+
+# Cython source and pre-generated C for users without Cython
+recursive-include src *.pyx *.c *.py
